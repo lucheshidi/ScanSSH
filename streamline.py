@@ -4,7 +4,6 @@ import os
 def main():
     ipstr: str = input("Enter the IP address: ")
     try:
-        global ip
         ip: int = ipstr.split(".")
     except ValueError:
         print("Invalid IP address format. Please enter a valid IP address.")

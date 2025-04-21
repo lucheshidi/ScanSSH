@@ -3,12 +3,12 @@
 ## Table of contents
 - [Introduction](#introduction)
 - [How to...](#how-to)
-  - [How to install](#how-to-install)
-  - [How to build](#how-to-build)
+  - [How to install](#how-to-install-)
+  - [How to build](#how-to-build-)
     - [check environment](#check-environment)
     - [clone repository and build](#clone-repository-and-build)
-  - [How to use](#how-to-use)
-  - [How to contribute](#how-to-contribute)
+  - [How to use](#how-to-use-)
+  - [How to contribute](#how-to-contribute-)
 - [Bye](#bye)
 
 
@@ -96,9 +96,29 @@ Now, you've installed the full environment to build the program. Now you need to
 pyinstaller main.py
 pyinstaller streamline.py
 ```
-So now, you go into `dist` folder and there will be two files named `main.exe` and `streamline.exe` or `main` and `streamline`
+So now, you go into `dist` folder and there will be two folders named `main` and `streamline`
 
-If you want to use Streamline version, just copy `streamline` or `streamline.exe` away to where you like! And [this](#) is how to use
+If you want to use Streamline version, just copy `streamline` or `streamline.exe` in the `streamline` folder away to where you like!
+Also, If you want to use Full version just copy `main` or `main.exe` in `main` folder away!
 
 
 ### How to use ?
+***WARNING:*** **This example is just showing in Windows 10, If you are using another system so the procedure will be some differences**
+
+In my system I just open the `main.exe` or `streamline.exe` I've just built or downloaded from download page, and it will be a black commandline window, and you can follow the instruction on the window to use it
+
+
+### How to contribute ?
+You <u>***NEED***</u> a Pycharm Professional or a Pycharm Community or a Visual Studio Code to code with [**V**irtual **Env**ironment](https://docs.python.org/3/library/venv.html).
+
+We recommend you to use Visual Studio Code.
+
+And you clone the repository like [building ScanSSH](#how-to-build-) and open the project directory in your Pycharm or VSCode.
+
+Now you get the code of ScanSSH, you can edit it in a great way. If you think your edit could be work, you can type in terminal:
+```bash
+git add ./*  # adding changed files to repository.
+git commit -am <Message for update>  # commit your changes.
+git push origin test  # push your changes to test branch and we will see is it really available.
+```
+the end says `To `

@@ -121,4 +121,9 @@ git add ./*  # adding changed files to repository.
 git commit -am <Message for update>  # commit your changes.
 git push origin test  # push your changes to test branch and we will see is it really available.
 ```
-the end says `To `
+the end says like:
+```output
+To https://github.com/lucheshidi/ScanSSH.git
+   ac87c50..46c7783  test -> test
+```
+You are successfully created your edit.

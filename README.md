@@ -126,4 +126,7 @@ the end says like:
 To https://github.com/lucheshidi/ScanSSH.git
    ac87c50..46c7783  test -> test
 ```
-You are successfully created your edit.
+You are successfully created your edit, and you can wait, we need some holidays to try and apply your change.
+
+
+## Bye!

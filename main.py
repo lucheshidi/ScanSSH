@@ -3,6 +3,7 @@ import time
 import platform
 import os
 import pofile
+import libScanSSH
 
 def get_os_name() -> str:
     os_name = platform.system().upper()
